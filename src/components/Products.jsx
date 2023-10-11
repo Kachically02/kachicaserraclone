@@ -9,7 +9,7 @@ function Products() {
       <div className="md:pt-10 w-[50%] pb-4">
         <img src={carlogo} alt="" />
       </div>
-      <div className="border-[1px] border-purple-400 bg-gray-100 p-8 mx-20 rounded">
+      <div className="border-[1px] border-purple-400 bg-gray-100 p-8 mx-8 rounded">
         <div className="text-[30px] font-extrabold flex gap-3 text-purple-700 justify items-center py-10 ">
           Why
           <span>
@@ -22,7 +22,7 @@ function Products() {
           </span>{" "}
           ?
         </div>
-        <p className="pr-20">
+        <p className="pr-10">
           We’ve a variety of market details for cars like suzuki, toyota,
           nissan, kia, tesla, ford and honda. <br/> 
           <br/>
