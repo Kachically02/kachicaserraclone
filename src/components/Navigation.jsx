@@ -30,7 +30,7 @@ function Navigation() {
       </div>
 
       {/*Mobile Screen*/}
-      <div className="absolute top-8 right-4" onClick={ ()=>{}}>
+      <div className="absolute top-8 right-4 md:hidden" onClick={ ()=>{}}>
         {open ? (
           <AiOutlineClose size={25} onClick={() => setOpen(false)} />
         ) : (
